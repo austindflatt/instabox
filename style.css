@@ -1,0 +1,99 @@
+body {
+    background-color: #fafafa;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00376b;
+    font-weight: bold;
+    text-decoration: none;
+}
+.main {
+    max-width: 980px;
+    height: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.profile-picture {
+    content: url(assets/logo.png);
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+}
+
+.verified {
+    content: url(assets/check-mark.png);
+    width: 18px;
+    height: 18px;
+    margin-left: 8px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+}
+
+.secondary {
+    padding-top: 10px;
+}
+
+.info {
+    list-style: none;
+    display: flex;
+}
+
+.info li {
+    margin-right: 40px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+}
+
+.highlight-name {
+    font-weight: bold;
+}
+
+.username {
+    color: #262626;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.highlights {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: flex-end;
+    justify-content: space-around;
+    margin-left: 200px;
+}
+
+.highlights li {
+    padding: 15px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.followed-by {
+    color: #8e8e8e;
+    font-size: 12px;
+}
+
+.following {
+    background-color: transparent;
+    border: 1px solid rgba(var(--ca6,219,219,219),1);
+    border-radius: 4px;
+    color: #262626;
+    margin-left: 8px;
+}
+
+.options {
+    margin-left: 8px;
+}
